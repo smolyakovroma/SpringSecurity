@@ -23,6 +23,8 @@
 </head>
 <body>
 <div class="container">
+
+
     <form:form method="POST" modelAttribute="userForm" class="form-signin">
         <h2 class="form-signin-heading">Create your account</h2>
         <spring:bind path="username">
@@ -50,6 +52,7 @@
 
         <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
     </form:form>
+
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
